@@ -1,0 +1,16 @@
+/** ESP8266 pinout
+
+                     _____________
+RST                 -|           |-      GPIO1-TXD0
+ADC0                -|           |-      GPIO3-RXD0
+ENABLE              -|           |-      GPIO5-SCL
+WAKE-GPIO16         -|  ESP-8266 |-      GPIO4-SDA
+SCLK-GPIO14         -|           |-      GPIO0-FLASH
+MISO-GPIO12         -|           |-      GPIO2-TXD1
+MOSI-GPIO13         -|           |-      GPIO15-CS-TXD2
+VCC                 -|___________|-      GND
+GPIO11              __| | | | | |__      GPIO06
+GPIO07              ____| | | |____      GPIO08
+GPIO09              ______| |______      GPIO10
+                      
+**/
