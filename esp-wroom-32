@@ -1,0 +1,24 @@
+/** ASCII ESP32-WROOM32 pinout
+
+                                                                              _____________________
+                                                                  GND        -|                   |-        GND
+                                                                 3.3V        -|                   |-        36/GPIO23/VSPI_ID/HS1_STROBE
+                                                             CHIP(PU)        -|                   |-        39/GPIO22/EMAC_TXD1/U0_RTS/VSPI_WP
+                               ADC_PA/RTCIO0/ADC1_0/SENS_VP/GPIO36/09        -|    ESP-WROOM32    |-        41/GPIO01/EMAC_RXD2/U0_TXD/CLK_OUT3
+                               ADC_PA/RTCIO3/ADC1_3/SENS_VN/GPIO39/05        -|                   |-        40/GPIO03/U0_RXD/CLK_OUT2
+                                       RTCIO4/ADC1_6/VDET_1/GPIO34/08        -|                   |-        42/GPIO21/EMAC_TXEN/VSPI_HD
+                                       RTCIO5/ADC1_7/VDET_2/GPIO35/10        -|                   |-        NC
+                                XTAL32/TOUCH9/RTCIO9/ADC1_4/GPIO32/11        -|                   |-        38/GPIO19/EMAC_TXD0/U0_CTS/VSPI_Q
+                                XTAL32/TOUCH8/RTCIO8/ADC1_5/GPIO33/12        -|                   |-        25/GPIO18/VSPI_CLK/HS1_DATA7
+                              DAC_1/RTCIO6/ADC2_8/EMAC_RXD0/GPIO25/13        -|                   |-        34/GPIO05/EMAC_RXCLK/VSPI_CS0/HS1_DATA6
+                              DAC_2/RTCIO7/ADC2_9/EMAC_RXD1/GPIO26/14        -|                   |-        27/GPIO17/EMAC_CO180/U2_TXD/HS1_DATA5
+                            TOUCH7/RTCIO17/ADC2_7/EMAC_RXDV/GPIO27/15        -|                   |-        25/GPIO16/EMAC_CLKOUT/U2_RXD/HS1_DATA4
+  HS2CLK/SDCLK/HSPICLK/MTMS/TOUCH6/RTCIO16/ADC2_6/EMAC_TXD2/GPIO14/16        -|                   |-        24/GPIO04/EMAC_TXER/ADC2_0/RTCIO10/TOUCH0/HSPI_HD/SDDATA1/HS2DATA1
+HS2DATA2/SDDATA2/HSPIQ/MTDI/TOUCH5/RTCIO15/ADC2_5/EMAC_TXD3/GPIO12/17        -|___________________|-        23/GPIO00/EMAC_TXCLK/ADC2_1/RTCIO11/TOUCH1/CLKOUT1
+                                                                               | | | | | | | | | |
+                                                                  GND        __| | | | | | | | | |__        22/GPIO02/HSPI_WP/ADC2_2/RTCIO12/TOUCH2
+HS2DATA3/SDDATA3/HSPID/MTCK/TOUCH4/RTCIO14/ADC2_4/EMAC_RXER/GPIO13/20        ____| | | | | | | |____        21/GPIO15/EMAC_RX3/ADC2_3/RTCIO13/TOUCH3/MTD0/HSPICS0/SDCMD/HS2CMD
+                               HS1DATA2/SDDATA2/U1RXD/SPIHD/GPIO09/28        ______| | | | | |______        33/GPIO08/SPID/U2CTS/HS1DATA1/SDDATA1
+                               HS1DATA3/SDDATA3/U1TXD/SPIWP/GPIO10/29        ________| | | |________        32/GPIO07/SPIQ/U2RTS/HS1DATA0/SDDATA0
+                                  SDCMD/HS1CMD/U1RTS/SPICS0/GPIO11/30        __________| |__________        31/GPIO06/SPICLK/U1CTS/HS1CLK/SDCLK
+**/
